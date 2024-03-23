@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0 20px;
+  padding: 0 8%;
 }
 
 .menu {
@@ -226,4 +226,32 @@
 
 .social-media img {
   padding: 4px;
+}
+
+
+@media (max-width: 767px) {
+  .section1 {
+    flex-direction: column;
+    height: auto;
+  }
+  .section1 .left {
+    padding: 20px 0;
+  }
+
+  .clients {
+    flex-direction: column;
+  }
+
+  .client {
+    margin-top: 50px;
+  }
+  .examples {
+    flex-wrap: wrap;
+  }
+
+  .examples div {
+    flex: 0.5;
+    flex-basis: 50%;
+    }
+
 }
